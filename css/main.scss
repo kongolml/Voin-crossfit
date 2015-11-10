@@ -1,0 +1,40 @@
+section {
+	min-height: 100vh;
+	height: auto;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	position: relative;
+	overflow: hidden;
+}
+
+a {
+	color: white;
+}
+
+p {
+	color: white;
+}
+
+.title {
+
+}
+
+.sub-title {
+
+}
+
+.intro {
+	background: url(../img/slide-1.jpg) no-repeat center /cover;
+	.logo {
+		transform: translate3d(0, -100%, 0);
+	}
+}
+
+.bg-image {
+	height: 100%;
+	width: auto;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
